@@ -39,6 +39,7 @@ Test 2: Sentiment
 | openai_large_3072         | Negative     | 1.2693           |
 
 - Input 2: `"This is terrible"`
+
 | Model                     | Top Category | Confidence Score |
 |---------------------------|--------------|------------------|
 | glove_25d                 | Positive     | 2.0526           |
