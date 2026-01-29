@@ -30,6 +30,7 @@
 Test 2: Sentiment
 - Categories: `Positive Negative`
 - Input 1: `"The movie was upsetting"`
+
 | Model                     | Top Category | Confidence Score |
 |---------------------------|--------------|------------------|
 | glove_25d                 | Positive     | 1.9910           |
@@ -84,6 +85,7 @@ Transformer models (OpenAI/Sentence-Transformers) use an attention mechanism, wh
 ### Part C
 Group 1: Electronics Food Groceries Money 
 - Input1: `"I bought a red Apple Watch"`
+
 | Model                     | Top Category | Confidence Score |
 |---------------------------|--------------|------------------|
 | glove_25d                 | Money        | 2.3350           |
@@ -93,6 +95,7 @@ Group 1: Electronics Food Groceries Money
 
 
 - Input2: `"I watch a red apple"`
+
 | Model                     | Top Category | Confidence Score |
 |---------------------------|--------------|------------------|
 | glove_25d                 | Money        | 2.3151           |
@@ -104,6 +107,7 @@ First input it means brand Apple product, second it means fruit apple.
 
 Group 2: Furniture Education Law
 - Input1: `"The textook was inside the case."`
+
 | Model                     | Top Category | Confidence Score |
 |---------------------------|--------------|------------------|
 | glove_25d                 | Law          | 2.0924           |
@@ -112,6 +116,7 @@ Group 2: Furniture Education Law
 | openai_large_3072         | Furniture    | 1.2020           |
 
 - Input2: `"The case in the textbook is typical"`
+
 | Model                     | Top Category | Confidence Score |
 |---------------------------|--------------|------------------|
 | glove_25d                 | Law          | 2.2599           |
