@@ -1,2 +1,6 @@
 gdown>=4.7.0
-
+streamlit
+gdown
+sentence-transformers
+matplotlib
+openai
