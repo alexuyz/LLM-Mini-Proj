@@ -26,7 +26,8 @@ import matplotlib.pyplot as plt
 import math
 from openai import OpenAI  # Added for OpenAI embeddings
 
-
+if "OPENAI_API_KEY" in st.secrets:
+    os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 ### Some predefined utility functions for you to load the text embeddings
 
 # Function to Load Glove Embeddings
